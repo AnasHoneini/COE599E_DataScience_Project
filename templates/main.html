@@ -23,7 +23,7 @@
 
     <div class="big">
       <div class="container">
-        <form id="myForm" method="POST">
+        <form id="myForm" action="/" method="POST" enctype="multipart/form-data">
           <div class="img-area" data-img="">
             <i class="bx bxs-cloud-upload icon"></i>
             <h3>Upload Image</h3>
@@ -36,9 +36,22 @@
       </div>
 
       <div class="containe">
-        <p>put digitilized text</p>
+        <br>
+        <p>First Name: {{name[0]}}</p>
+        <br>
+        <p>Family Name: {{name[1]}}</p>
+        <br>
+        <p>Father Name:</p>
+        <br>
+        <p>Mother Name:</p>
+        <br>
+        <p>Place of Birth:</p>
+        <br>
+        <p>Date of Birth:</p>
+        <br>
+        <p>ID Number:</p>
       </div>
-    </div>
+      
   </body>
 
   <script>
