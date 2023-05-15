@@ -1,1 +1,1 @@
-User Interface for the DataScience About OCR for the Lebanese ID
+User Interface for the DataScience Project that is about creating a machine learning for OCR for the Lebanese ID
