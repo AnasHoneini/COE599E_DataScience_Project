@@ -37,9 +37,9 @@
 
       <div class="containe">
         <br>
-        <p>First Name: {{name[0]}}</p>
+        <p>First Name: </p>
         <br>
-        <p>Family Name: {{name[1]}}</p>
+        <p>Family Name: </p>
         <br>
         <p>Father Name:</p>
         <br>
@@ -49,11 +49,11 @@
         <br>
         <p>Date of Birth:</p>
         <br>
-        <p>ID Number:</p>
+        <p>ID Number: {{IDNumber_str}}</p>
         <br>
         <p> User Picture: </p>
         <br>
-        <img src="../static/20230428_202016.jpg" width="250" alt="Image description">
+        <img src="{{url_for('static', filename= 'profile.jpg')}}" alt="Image description">
 
       </div>
       
