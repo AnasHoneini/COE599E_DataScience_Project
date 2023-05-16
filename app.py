@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def home():
-
+    IDNumber_str=''
     if request.method == "POST":
         # get the uploaded image file
         file = request.files['image']
@@ -28,9 +28,11 @@ def home():
             print("The IDNumber list is empty.")
         else:
             IDNumber_array = np.array(IDNumber)
-
+            print(IDNumber)
+            print(IDNumber_array)
             # Convert the array to a string representation
-            IDNumber_str = np.array2string(IDNumber_array, separator=', ')
+            IDNumber_str = np.array2string(IDNumber_array.flatten(), separator='')[1:-1]
+            print(IDNumber_str)
         #proccess it in google collab
         # put the details in a list called name
         
