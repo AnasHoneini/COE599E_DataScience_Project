@@ -1,4 +1,4 @@
-COE599E Prog for Data Science Project
+<b>COE599E Prog for Data Science Project</b>
 
 Lebanese Identity Recognition with OCR
 
