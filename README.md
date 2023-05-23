@@ -1,6 +1,6 @@
-<b>COE599E Prog for Data Science Project</b>
+<h1>COE599E Prog for Data Science Project</h1>
 
-Lebanese Identity Recognition with OCR
+<h2>Lebanese Identity Recognition with OCR</h2>
 
 This project focuses on enhancing the accuracy, efficiency, and security of Lebanese identity recognition using Optical Character Recognition (OCR) technology. The objective is to explore the potential of OCR in processing various Lebanese identity documents, including passports, ID cards, licenses, and voter ID cards. By leveraging machine learning techniques, the project aims to develop a robust OCR model capable of extracting essential information from these documents.
 
