@@ -19,5 +19,7 @@ Face Recognition: In order to recognize faces in images, we employed the LBP (Lo
 <b>Technology Stack:</b>
 <br>
 Frontend: HTML and CSS for creating an intuitive user interface.
+<br>
 Backend: Python Flask framework for handling requests and integrating the OCR models.
+<br>
 Machine Learning: Python libraries for implementing various algorithms, including KNN, SVC, MLP, and others.
